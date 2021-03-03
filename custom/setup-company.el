@@ -1,4 +1,5 @@
-(use-package company)
+(use-package company
+  :init)
 
 (global-company-mode t)
 

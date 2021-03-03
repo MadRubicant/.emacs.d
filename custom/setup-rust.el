@@ -1,4 +1,4 @@
-(eval-after-load 'lsp
+(with-eval-after-load 'lsp
   (add-hook 'rust-mode-hook 'lsp)
   (add-hook 'rust-mode-hook 'yas-minor-mode)
 

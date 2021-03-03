@@ -19,7 +19,7 @@
 (add-hook 'c++-mode-hook
 	  (lambda () (define-key c++-mode-map (kbd "C-c C-f") 'clang-format-buffer)))
 
-(eval-after-load 'company
+(with-eval-after-load 'company
   (use-package company-c-headers)
   (add-to-list 'company-backends 'company-c-headers))
 
